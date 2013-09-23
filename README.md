@@ -11,3 +11,9 @@ Instructions
 4. Add your new form to the Report Abuse page.
 
 Now users can click the "Report Abuse" link above any reply in your forums. They are taken to the Report Abuse page with the reporting form, and the reported URL is filled out for them already.
+
+Customization Filters
+-------------
+
+* `bbpress_report_abuse_label` - change the phrase "Report Abuse" to something else
+* `bbpress_report_abuse_url`  – change the URL of the form (defaults to /report-abuse)
