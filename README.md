@@ -6,7 +6,7 @@ This plugin provides a "Report Abuse" link in bbPress replies. It is designed to
 Instructions
 -------------
 1. Download and install plugin.
-2. Create a page called "Report Abuse" (URL = /report-abuse). If you want to use a different URL, use the `bbpress_report_abuse_url` filter to change the default
+2. Create a page called "Report Abuse" (URL = /report-abuse). See customization notes below for how to change this.
 3. Create a Gravity Form. Add whatever fields you'd like users to fill out. One of them should be "Reported URL". Click the "Advanced" tab, check "Allow field to be populated dynamically", and specify `bbp_report_abuse` as the parameter name.
 4. Add your new form to the Report Abuse page.
 
