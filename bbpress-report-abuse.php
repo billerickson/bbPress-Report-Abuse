@@ -20,7 +20,7 @@
  * @author     Bill Erickson
  * @version    1.0.0
  * @package    bbPressReportAbuse
- * @copyright  Copyright (c) 2012, Bill Erickson
+ * @copyright  Copyright (c) 2013, Bill Erickson
  * @link       http://billerickson.net
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
