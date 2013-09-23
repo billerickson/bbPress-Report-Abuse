@@ -86,4 +86,4 @@ class bbp_Report_Abuse {
 	}
 }
 
-new bbp_Report_Abuse();
+$bbp_Report_Abuse = new bbp_Report_Abuse();
