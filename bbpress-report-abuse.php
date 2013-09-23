@@ -45,7 +45,9 @@ class bbp_Report_Abuse {
 	}
 
 	/**
-	 * Abuse Link defaults to '/report-abuse' but is filterable
+	 * Abuse Link in Forum
+	 *
+	 * Defaults to '/report-abuse' but is filterable
 	 *
 	 * @since 1.0.0
 	 */
