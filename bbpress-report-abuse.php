@@ -40,7 +40,7 @@ class bbp_Report_Abuse {
 	 */
 	function __construct() {
 
-		add_action( 'bbp_theme_before_reply_admin_links', array( $this, 'abuse_link' ) );
+		add_action( 'bbp_theme_before_reply_admin_links', array( $this, 'abuse_link_in_forum' ) );
 		add_filter( 'gform_pre_render', array( $this, 'abuse_link_in_form' ) );
 	}
 
@@ -49,7 +49,7 @@ class bbp_Report_Abuse {
 	 *
 	 * @since 1.0.0
 	 */
-	function abuse_link() {
+	function abuse_link_in_forum() {
 		// Label, filterable
 		$label = apply_filters( 'bbpress_report_abuse_label', 'Report Abuse' );
 		// Default url
