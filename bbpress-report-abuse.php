@@ -58,7 +58,7 @@ class bbp_Report_Abuse {
 		$url = apply_filters( 'bbpress_report_abuse_url', site_url( 'report-abuse' ) );
 		// Add the topic ID
 		$url = add_query_arg( 'bbp_report_topic', get_the_ID(), $url );
-		echo '<a class="bbp-report-abuse" href="' . $url . '">' . $label . '</a>';
+		echo '<a class="bbp-report-abuse" href="' . esc_url( $url ) . '">' . esc_html( $label ) . '</a>';
 	}
 	
 	/**
