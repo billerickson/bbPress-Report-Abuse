@@ -50,13 +50,15 @@ class bbp_Report_Abuse {
 	 * @since 1.0.0
 	 */
 	function abuse_link() {
+		// Label, filterable
+		$label = apply_filters( 'bbpress_report_abuse_label', 'Report Abuse' );
 		// Default url
 		$url = site_url( 'report-abuse' );
 		// Make it filterable
 		$url = apply_filters( 'bbpress_report_abuse_url', $url );
 		// Add the topic ID
 		$url = add_query_arg( 'bbp_report_topic', get_the_ID(), $url );
-		echo '<a class="bbp-report-abuse" href="' . $url . '">Report Abuse</a>';
+		echo '<a class="bbp-report-abuse" href="' . $url . '">' . $label . '</a>';
 	}
 	
 	/**
