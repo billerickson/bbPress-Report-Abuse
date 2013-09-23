@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: bbPress Report Abuse
- * Plugin URI:  http://www.billerickson.net
+ * Plugin URI:  http://github.com/billerickson/bbpress-report-abuse
  * Description: Provides a "Report Abuse" link in replies
  * Version:     1.0.0
  * Author:      Bill Erickson
